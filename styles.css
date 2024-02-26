@@ -1,0 +1,19 @@
+body{
+    background-color: turquoise;
+    font-family: Tahoma;
+}
+
+h1{
+    text-align: center;
+    width: 200px;
+    border: 100px white;
+    padding: 100px;
+    margin: 100px;
+    background-color: blueviolet;
+}
+h2{
+    text-align: center;
+    width: 100px;
+    background-color: bisque;
+
+}
