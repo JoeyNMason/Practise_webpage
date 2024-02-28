@@ -1,19 +1,24 @@
+/* CSS for index page*/
+
 body{
     background-color: turquoise;
     font-family: Tahoma;
 }
 
 h1{
-    text-align: center;
-    width: 200px;
-    border: 100px white;
-    padding: 100px;
-    margin: 100px;
     background-color: blueviolet;
-}
+    text-align: center;
+    border: 2px solid white;
+     width: 270px;
+    margin: ; 
+    padding: 0 7px;
+}   
+
 h2{
     text-align: center;
-    width: 100px;
-    background-color: bisque;
-
+    border: 2px solid white;
+    width: 200px;
+    margin: 20px auto;
+    padding: 0 7px;
+    background-color: pink;
 }
