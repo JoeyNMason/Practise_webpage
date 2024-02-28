@@ -1,24 +1,99 @@
 /* CSS for index page*/
 
-body{
-    background-color: turquoise;
-    font-family: Tahoma;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+/* overrides the page, sets values accross the board */
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #8D918D;
+    
+}
+
+li, a, button { /* {} used to select one or elements and allow styles   */
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #fcd059; /* color of font */
+        text-decoration: none;
+}
+
+header{
+    display: flex; /* flex box*/
+    justify-content: flex-end;
+    /*justify-content: space-between;*/ /* pushes the left and right items to the respective sides of the page and pushes the middle items to the center */
+    align-items: center; /* take everything in the header and center them */
+    padding: 30px 10%; /* gives an area around the element(s) transparent space  */
+
+}
+    
+.logo{
+    cursor: pointer; /* when hovered over turns into a cursor */
+    margin-right: auto;
+
+}
+
+.nav_links{ 
+    list-style: none; /* removes the bullet points next to the text */
+}
+
+.nav_links li{ 
+    display: inline-block; /* instead of links going up and down they are side by side */
+    padding: 0px 20px;
+
+}
+
+.nav_links li a{ /* targeting these elements and class to have a smooth transition */
+    transition: all 0.3s ease 0s; 
+
+}
+
+.nav_links li a:hover { 
+    color: #c0c0c0;
+    
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(192, 192, 192, 1); /* rgba deals with opacity levels which the a stands for */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: rgba(192, 192, 192, 0.8);
+
 }
 
 h1{
-    background-color: blueviolet;
+    color: #8cac96;
     text-align: center;
-    border: 2px solid white;
-     width: 270px;
-    margin: ; 
-    padding: 0 7px;
+    padding: 25px;
+
 }   
 
 h2{
+    color: #8cac96;
     text-align: center;
-    border: 2px solid white;
-    width: 200px;
-    margin: 20px auto;
-    padding: 0 7px;
-    background-color: pink;
+    padding: 25px;
+    
+}
+
+.para{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 200px;
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
