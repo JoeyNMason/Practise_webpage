@@ -1,23 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Practise Webpage</title>
-        <link rel="stylesheet" href="styles.css">
+<!DOCTYPE html> <!-- declares to the browser what type of information to expect. -->
+
+<!--  This project is my "test server" of html and css. to put what i learn into practise.  -->
+
+<html lang="en"> <!-- Language set to english for this website.  -->
+
+    <head> <!--container for meta data. data about data. -->
+        <meta charset="utf-8"> <!-- character encoding. utf-8 covers nearly all characters/symbols in the world. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes sure that the website is sized correctly on all devices. -->
+        <link rel="stylesheet" href="styles.css"> <!-- links the css file to this file so the style of the webpage can be altered. -->
+        <title>Home</title> <!-- website name appearing in the browser tab bar. -->
     </head>
-<body>
-    <div id="h1">
-        <h1>Practise Webpage</h1>
+
+<body> <!-- container for all the contents of a html document. -->
+    
+        <header> <!-- The <header> is a container for introductory content or a set of navigational links. -->
+                 <!-- <img src="" used to show images in a browser sourced from a file. alt="" is alternative text to be shown when the browser cannot load the image. -->
+            <img class="logo" src="" alt="logo"> 
+            <nav><!-- navigation bar element. -->
+                <ul class="nav_links"> <!-- Unorderd List. -->
+                    <li><a href="index.html">Home</a></li> <!-- List element. -->
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html">
+                <button>
+                    Contact
+                </button>
+            </a>
+        </header>
+
+
+    <div class="h1"> <!-- <div> is used to contain or divide content. then used to easily style in css. -->
+                     <!-- class="" is used to give multiple elements a "name" to then style in css.  -->
+        <h1>Practise Webpage</h1> <!-- h1 is the main header, the big title. h1-h6. -->
     </div>
     
-    <div id="h2">
+    <div class="h2">
     <h2>h2 heading</h2>
     </div>
+    
+    <div class="para">
+        <!-- <p> is used to hold text displayed in the browser. -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptates quis possimus delectus accusantium soluta expedita. Inventore veniam perspiciatis, a eius veritatis nulla. Iure rem officiis fuga molestiae consequuntur amet.</p>
+    </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptates quis possimus delectus accusantium soluta expedita. Inventore veniam perspiciatis, a eius veritatis nulla. Iure rem officiis fuga molestiae consequuntur amet.</p>
-    <img src="" alt="image here">
+    <img class="center" src="" alt="image here"> 
+
+    <div class="para">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa ad voluptas eaque praesentium dolorum error molestiae aliquid, quas temporibus maiores nulla, dicta doloremque iure cum iusto optio quos quibusdam?</p>
-    <img src="" alt="image here">
+    </div>
+
+    <img src="" alt="image here" class="center">
     
 
 
