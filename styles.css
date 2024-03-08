@@ -20,7 +20,11 @@ li, a, button { /* {} used to select one or elements and allow styles   */
         text-decoration: none;
 }
 
+
+
 header{
+    top: 0;
+    
     display: flex; /* flex box*/
     justify-content: flex-end;
     /*justify-content: space-between;*/ /* pushes the left and right items to the respective sides of the page and pushes the middle items to the center */
